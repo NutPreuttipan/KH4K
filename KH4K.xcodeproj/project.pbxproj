@@ -7,21 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35AC901BEF147853E6FB171A /* Pods_KH4K.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3668FF1BD8F49C5E2D9BEA43 /* Pods_KH4K.framework */; };
+		781B24C1216E06740003672A /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781B24C0216E06740003672A /* VideoView.swift */; };
+		781B24C9216F077E0003672A /* ChannelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781B24C8216F077E0003672A /* ChannelTableViewCell.swift */; };
+		781B24CD216F2D670003672A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781B24CC216F2D670003672A /* LoginViewController.swift */; };
+		781B24CF216F2F340003672A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781B24CE216F2F340003672A /* RegisterViewController.swift */; };
+		781B24D1216F31390003672A /* TopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781B24D0216F31390003672A /* TopupViewController.swift */; };
+		783CD3D5217D711500C12AB0 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783CD3D4217D711500C12AB0 /* UIView.swift */; };
+		783CD3D8217D89DE00C12AB0 /* launch_app.png in Resources */ = {isa = PBXBuildFile; fileRef = 783CD3D7217D89DE00C12AB0 /* launch_app.png */; };
+		783CD3DF217D92BB00C12AB0 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783CD3DE217D92BB00C12AB0 /* MovieViewController.swift */; };
+		783CD3E1217D933100C12AB0 /* MovieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783CD3E0217D933100C12AB0 /* MovieCollectionViewCell.swift */; };
+		783CD3E3217DAEEE00C12AB0 /* MovieDrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783CD3E2217DAEEE00C12AB0 /* MovieDrawerViewController.swift */; };
+		783CD3E5217DBA0100C12AB0 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783CD3E4217DBA0100C12AB0 /* MovieDetailViewController.swift */; };
+		783CD3E7217DC0E800C12AB0 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783CD3E6217DC0E800C12AB0 /* MoreViewController.swift */; };
+		7863153A217DE5450054F311 /* PopOverCountryMobileCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78631539217DE5450054F311 /* PopOverCountryMobileCodeViewController.swift */; };
 		78708D00216DF72400CDF1FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78708CFF216DF72400CDF1FC /* AppDelegate.swift */; };
-		78708D02216DF72400CDF1FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78708D01216DF72400CDF1FC /* ViewController.swift */; };
+		78708D02216DF72400CDF1FC /* LiveVideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78708D01216DF72400CDF1FC /* LiveVideoPlayerViewController.swift */; };
 		78708D05216DF72400CDF1FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78708D03216DF72400CDF1FC /* Main.storyboard */; };
 		78708D07216DF72500CDF1FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78708D06216DF72500CDF1FC /* Assets.xcassets */; };
 		78708D0A216DF72500CDF1FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78708D08216DF72500CDF1FC /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3668FF1BD8F49C5E2D9BEA43 /* Pods_KH4K.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KH4K.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66010D5314D17B5647FCF9D7 /* Pods-KH4K.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KH4K.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KH4K/Pods-KH4K.debug.xcconfig"; sourceTree = "<group>"; };
+		781B24C0216E06740003672A /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		781B24C8216F077E0003672A /* ChannelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelTableViewCell.swift; sourceTree = "<group>"; };
+		781B24CC216F2D670003672A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		781B24CE216F2F340003672A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		781B24D0216F31390003672A /* TopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopupViewController.swift; sourceTree = "<group>"; };
+		783CD3D4217D711500C12AB0 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		783CD3D7217D89DE00C12AB0 /* launch_app.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch_app.png; sourceTree = "<group>"; };
+		783CD3DE217D92BB00C12AB0 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		783CD3E0217D933100C12AB0 /* MovieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollectionViewCell.swift; sourceTree = "<group>"; };
+		783CD3E2217DAEEE00C12AB0 /* MovieDrawerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDrawerViewController.swift; sourceTree = "<group>"; };
+		783CD3E4217DBA0100C12AB0 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		783CD3E6217DC0E800C12AB0 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		78631539217DE5450054F311 /* PopOverCountryMobileCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopOverCountryMobileCodeViewController.swift; sourceTree = "<group>"; };
 		78708CFC216DF72400CDF1FC /* KH4K.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KH4K.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78708CFF216DF72400CDF1FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		78708D01216DF72400CDF1FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		78708D01216DF72400CDF1FC /* LiveVideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveVideoPlayerViewController.swift; sourceTree = "<group>"; };
 		78708D04216DF72400CDF1FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		78708D06216DF72500CDF1FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78708D09216DF72500CDF1FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78708D0B216DF72500CDF1FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D3A196FDF63315D36F668C7 /* Pods-KH4K.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KH4K.release.xcconfig"; path = "Pods/Target Support Files/Pods-KH4K/Pods-KH4K.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +59,77 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35AC901BEF147853E6FB171A /* Pods_KH4K.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		781B24C4216F06300003672A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		781B24C5216F063D0003672A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		781B24C6216F06440003672A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				78708D01216DF72400CDF1FC /* LiveVideoPlayerViewController.swift */,
+				781B24CC216F2D670003672A /* LoginViewController.swift */,
+				781B24CE216F2F340003672A /* RegisterViewController.swift */,
+				781B24D0216F31390003672A /* TopupViewController.swift */,
+				783CD3DE217D92BB00C12AB0 /* MovieViewController.swift */,
+				783CD3E2217DAEEE00C12AB0 /* MovieDrawerViewController.swift */,
+				783CD3E4217DBA0100C12AB0 /* MovieDetailViewController.swift */,
+				783CD3E6217DC0E800C12AB0 /* MoreViewController.swift */,
+				78631539217DE5450054F311 /* PopOverCountryMobileCodeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		781B24C7216F06540003672A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				781B24C0216E06740003672A /* VideoView.swift */,
+				781B24C8216F077E0003672A /* ChannelTableViewCell.swift */,
+				783CD3E0217D933100C12AB0 /* MovieCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		783CD3D3217D710400C12AB0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				783CD3D4217D711500C12AB0 /* UIView.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		783CD3D6217D719D00C12AB0 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				783CD3D7217D89DE00C12AB0 /* launch_app.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		78708CF3216DF72400CDF1FC = {
 			isa = PBXGroup;
 			children = (
 				78708CFE216DF72400CDF1FC /* KH4K */,
+				783CD3D3217D710400C12AB0 /* Extension */,
 				78708CFD216DF72400CDF1FC /* Products */,
+				C6E91200098FCEE769A62310 /* Pods */,
+				F1DA387C79EF6B613311FA17 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +144,35 @@
 		78708CFE216DF72400CDF1FC /* KH4K */ = {
 			isa = PBXGroup;
 			children = (
+				783CD3D6217D719D00C12AB0 /* Image */,
+				781B24C4216F06300003672A /* Models */,
+				781B24C7216F06540003672A /* Views */,
+				781B24C6216F06440003672A /* Controller */,
+				781B24C5216F063D0003672A /* Services */,
 				78708CFF216DF72400CDF1FC /* AppDelegate.swift */,
-				78708D01216DF72400CDF1FC /* ViewController.swift */,
 				78708D03216DF72400CDF1FC /* Main.storyboard */,
 				78708D06216DF72500CDF1FC /* Assets.xcassets */,
 				78708D08216DF72500CDF1FC /* LaunchScreen.storyboard */,
 				78708D0B216DF72500CDF1FC /* Info.plist */,
 			);
 			path = KH4K;
+			sourceTree = "<group>";
+		};
+		C6E91200098FCEE769A62310 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66010D5314D17B5647FCF9D7 /* Pods-KH4K.debug.xcconfig */,
+				8D3A196FDF63315D36F668C7 /* Pods-KH4K.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F1DA387C79EF6B613311FA17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3668FF1BD8F49C5E2D9BEA43 /* Pods_KH4K.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78708D0E216DF72500CDF1FC /* Build configuration list for PBXNativeTarget "KH4K" */;
 			buildPhases = (
+				442A6D0B37F6FF5E7CEFD555 /* [CP] Check Pods Manifest.lock */,
 				78708CF8216DF72400CDF1FC /* Sources */,
 				78708CF9216DF72400CDF1FC /* Frameworks */,
 				78708CFA216DF72400CDF1FC /* Resources */,
+				E17115A71F31DF688FD3D196 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78708D0A216DF72500CDF1FC /* LaunchScreen.storyboard in Resources */,
+				783CD3D8217D89DE00C12AB0 /* launch_app.png in Resources */,
 				78708D07216DF72500CDF1FC /* Assets.xcassets in Resources */,
 				78708D05216DF72400CDF1FC /* Main.storyboard in Resources */,
 			);
@@ -130,13 +244,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		442A6D0B37F6FF5E7CEFD555 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KH4K-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E17115A71F31DF688FD3D196 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KH4K/Pods-KH4K-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SWRevealViewController/SWRevealViewController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWRevealViewController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KH4K/Pods-KH4K-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		78708CF8216DF72400CDF1FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78708D02216DF72400CDF1FC /* ViewController.swift in Sources */,
+				783CD3E3217DAEEE00C12AB0 /* MovieDrawerViewController.swift in Sources */,
+				783CD3E7217DC0E800C12AB0 /* MoreViewController.swift in Sources */,
+				783CD3D5217D711500C12AB0 /* UIView.swift in Sources */,
+				781B24CD216F2D670003672A /* LoginViewController.swift in Sources */,
+				781B24CF216F2F340003672A /* RegisterViewController.swift in Sources */,
+				783CD3E5217DBA0100C12AB0 /* MovieDetailViewController.swift in Sources */,
+				781B24D1216F31390003672A /* TopupViewController.swift in Sources */,
+				781B24C1216E06740003672A /* VideoView.swift in Sources */,
+				783CD3DF217D92BB00C12AB0 /* MovieViewController.swift in Sources */,
+				78708D02216DF72400CDF1FC /* LiveVideoPlayerViewController.swift in Sources */,
+				7863153A217DE5450054F311 /* PopOverCountryMobileCodeViewController.swift in Sources */,
+				783CD3E1217D933100C12AB0 /* MovieCollectionViewCell.swift in Sources */,
 				78708D00216DF72400CDF1FC /* AppDelegate.swift in Sources */,
+				781B24C9216F077E0003672A /* ChannelTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,7 +359,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -255,7 +420,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -280,17 +445,21 @@
 		};
 		78708D0F216DF72500CDF1FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66010D5314D17B5647FCF9D7 /* Pods-KH4K.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 83SD72X346;
 				INFOPLIST_FILE = KH4K/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lphant.KH4K;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.KH4K;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,17 +467,21 @@
 		};
 		78708D10216DF72500CDF1FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D3A196FDF63315D36F668C7 /* Pods-KH4K.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 83SD72X346;
 				INFOPLIST_FILE = KH4K/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lphant.KH4K;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.KH4K;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
